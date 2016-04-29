@@ -7,9 +7,9 @@ from django.db import models
 class Word(models.Model):
 
 	LANGUAGES = (
-		('EN','English'),
-		('KZ','Kazakh'),
-		('RU','Russian'),
+		('en','English'),
+		('kk','Kazakh'),
+		('ru','Russian'),
 	)
 
 	title = models.CharField(max_length=80)
